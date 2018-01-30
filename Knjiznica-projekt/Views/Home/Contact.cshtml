@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Kontakt";
+}
+<h2>@ViewData["Title"]</h2>
+
+<address>
+    <strong>podrška:</strong> <a href="mailto:tkuhar6443@gmail.com">tkuhar6443@gmail.com</a><br />
+</address>
+
+<address>
+    Žminjska 7<br />
+    Zagreb, 10000<br />
+    <abbr title="Phone">P: </abbr>
+    +385998403841
+</address>
+
+<!-- Add Google Maps -->
+<div id="googleMap" style="height:400px;width:100%;"></div>
+<script>
+        function myMap() {
+            var myCenter = new google.maps.LatLng(45.808814, 16.038976);
+            var mapProp = {center:myCenter, zoom:5, scrollwheel:false, draggable:true, gestureHandling: 'greedy', mapTypeId:google.maps.MapTypeId.ROADMAP};
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            var marker = new google.maps.Marker({position:myCenter});
+            marker.setMap(map);
+        }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcXjOMrPxBJD2aUF_8Xi92B6jQ-2dV95A&callback=myMap"></script>

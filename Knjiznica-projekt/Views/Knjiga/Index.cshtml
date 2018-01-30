@@ -1,0 +1,54 @@
+﻿@model IEnumerable<KnjiznicaProjekt.Models.Knjiga>
+@{
+    ViewData["Title"] = "Index";
+}
+<p>
+    <br />
+    <a asp-action="Create">Dodaj novu knjigu</a><br />
+    <a asp-area="" asp-controller="Autor" asp-action="Index">Uredi Autore</a>
+
+</p>
+<h2>Lista Knjiga:</h2>
+<form>
+    <p>
+        Upiši Pojam:&nbsp;<input name="trazi" type="search" />&nbsp;
+        <input type="submit" value="traži" />
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Naziv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Godina)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Naziv)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Godina)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Autor.Prezime)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
