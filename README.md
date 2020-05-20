@@ -5,8 +5,9 @@ The project is intended to work as a record system which allows registered users
 <table style="width:100%">
   <caption>App gallery</caption>
   <tr>
-    <td style="padding-bottom:100px"><img src="/img/bookkepping-homepage1.PNG"></td>
+    <td><img src="/img/bookkepping-homepage1.PNG"></td>
   </tr>
+  <tr class="spacer"></tr> 
    <tr>
     <td><img src="/img/bookkepping-homepage2.PNG"></td>
   </tr>
