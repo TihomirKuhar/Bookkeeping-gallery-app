@@ -1,4 +1,4 @@
-# Knjiznica-Galerija-PIN_projekt
-Projekt je zamišljen kao sustav evdencije pomoću kojeg registrirani korisnici mogu dodavati/uklanjati, 
-editirati postojeće knjige i autore iz galerije, dok ne registrirani korisnici imaju samo mogućnost uvida u galeriju. 
-Na stranici je isto tako moguće naći neke zanimljive informacije iz svijeta knjige.
+#Bookkeeping-gallery-app
+
+The project is intended to work as a record system which allows registered users to add / remove / edit books and authors from the gallery while unregistered users can only browse the gallery. The site also shows some fun facts from the world of books.
+
