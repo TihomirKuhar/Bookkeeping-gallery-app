@@ -11,12 +11,21 @@ The project is intended to work as a record system which allows registered users
     <td><img src="/img/bookkepping-homepage2.PNG"></td>
   </tr>
    <tr>
-    <td><img src="/img/bookkepping-homepage1.PNG"></td>
+    <td><img src="/img/bookkepping-gallery.PNG"></td>
   </tr>
    <tr>
-    <td><img src="/img/bookkepping-homepage1.PNG"></td>
+    <td><img src="/img/bookkepping-register-musthave.PNG"></td>
   </tr>
    <tr>
-    <td><img src="/img/bookkepping-homepage1.PNG"></td>
+    <td><img src="/img/bookkepping-register-new-author.PNG"></td>
+  </tr>
+   <tr>
+    <td><img src="/img/bookkepping-register-new-book.PNG"></td>
+  </tr>
+   <tr>
+    <td><img src="/img/bookkepping-gallery-updated.PNG"></td>
+  </tr>
+   <tr>
+    <td><img src="/img/bookkepping-contact.PNG"></td>
   </tr>
 </table>
