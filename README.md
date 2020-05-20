@@ -4,10 +4,8 @@ The project is intended to work as a record system which allows registered users
 
 <table style="width:100%">
   <caption>App gallery</caption>
-  <tr style="border-top: 10px solid;
-    border-bottom: 10px solid;
-    border-color: transparent;">
-    <td><img src="/img/bookkepping-homepage1.PNG"></td>
+  <tr>
+    <td><img src="/img/bookkepping-homepage1.PNG" alt="bookkepping-homepage1"><p style="color:transparent">.<p></td>
   </tr>
    <tr>
     <td><img src="/img/bookkepping-homepage2.PNG"></td>
